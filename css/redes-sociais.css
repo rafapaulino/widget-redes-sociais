@@ -1,3 +1,6 @@
+/* QUADRADOS DAS REDES SOCIAIS: ;
+// --------------------------------------------------
+*/
 /* redes sociais na sidebar */
 /* quadrado grande */
 .side-social {
@@ -77,4 +80,106 @@
 }
 .side-social a.pinterest {
     background: #BD081B;
+}
+
+/* BARRINHAS DAS REDES SOCIAIS: ;
+// --------------------------------------------------
+*/
+.redesSociais {
+    margin: 0 0 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+.redesSociais a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px; 
+    overflow: hidden;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.redesSociais a .icone {
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 15%;
+    float: left;
+}
+/* 
+    media query para aparecer do tablet/desktops, etc... 
+    https://getbootstrap.com/docs/4.0/layout/overview/
+*/
+@media (min-width: 768px) and (max-width: 960px) {
+    .redesSociais a .icone {
+        width: 20%;
+        padding: 15px 10px;
+    }
+}
+.redesSociais a .icone i {
+    font-size: 20px;
+}
+.redesSociais a .corpo {
+    font-size: 13px;
+    float: right;
+    width: 85%;
+    box-sizing: border-box;
+    padding: 15px;
+    height: 100%;
+    position: relative;
+}
+/* 
+    media query para aparecer do tablet/desktops, etc... 
+    https://getbootstrap.com/docs/4.0/layout/overview/
+*/
+@media (min-width: 768px) and (max-width: 960px) {
+    .redesSociais a .corpo {
+        width: 80%;
+    }
+}
+.redesSociais a .corpo data {
+    font-weight: 600;
+}
+.redesSociais a .corpo span {
+    position: absolute;
+    right: 15px;
+}
+.redesSociais a.facebook {
+    background: #3B5998;
+}
+.redesSociais a.facebook .corpo {
+    background: #304a7c;
+}
+.redesSociais a.twitter {
+    background: #46A3E9;
+}
+.redesSociais a.twitter .corpo {
+    background: rgb(60, 150, 219);
+}
+.redesSociais a.youtube {
+    background: #CB2027;
+}
+.redesSociais a.youtube .corpo {
+    background: #ad1d22;
+}
+.redesSociais a.linkedin {
+    background: #0177B5;
+}
+.redesSociais a.linkedin .corpo {
+    background: rgb(2, 99, 151);
+}
+.redesSociais a.instagram {
+    background: #517FA4;
+}
+.redesSociais a.instagram .corpo {
+    background: rgb(62, 105, 139);
+}
+.redesSociais a.rss {
+    background: #F27110;
+}
+.redesSociais a.rss .corpo {
+    background: rgb(224, 104, 12);
 }

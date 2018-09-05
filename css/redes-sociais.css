@@ -1,0 +1,57 @@
+/* redes sociais na sidebar */
+/* quadrado grande */
+.side-social {
+    margin: 5px auto 10px auto;
+}
+
+.side-social a {
+	background: #3B5998;
+	color: #fff;
+	display: table;
+	height: 115px;
+	float: left;
+	width: 31.333333%;
+	margin: 1%;
+	font-size: 20px;
+	text-align: center;
+    padding: 20px 0 0;
+    text-decoration: none;
+}
+
+.side-social a i {
+	display: block;
+	font-size: 24px;
+	margin: 0 0 12px;
+}
+
+.side-social a span {
+	display: block;
+	font-size: 12px;
+	letter-spacing: -0.02em;
+	margin: 0;
+}
+
+.side-social a.twitter {
+    background: #46A3E9;
+}
+.side-social a.youtube {
+    background: #CB2027;
+}
+.side-social a.linkedin {
+    background: #0177B5;
+}
+.side-social a.instagram {
+    background: #517FA4;
+}
+.side-social a.rss {
+    background: #F27110;
+}
+.side-social a.whatsapp {
+    background: #4DC247;
+}
+.side-social a.googleplus {
+    background: #DD5144;
+}
+.side-social a.pinterest {
+    background: #BD081B;
+}

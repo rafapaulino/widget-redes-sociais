@@ -2,20 +2,43 @@
 /* quadrado grande */
 .side-social {
     margin: 5px auto 10px auto;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+
 }
 
 .side-social a {
 	background: #3B5998;
 	color: #fff;
 	display: table;
-	height: 115px;
 	float: left;
-	width: 31.333333%;
+    width: 138px;
+    height: 138px;
 	margin: 1%;
 	font-size: 20px;
 	text-align: center;
-    padding: 20px 0 0;
+    padding: 20px;
     text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Medium devices (tablets, 720px and up) */
+@media (min-width: 720px) {
+    .side-social a {
+        float: none;
+        margin: 1% 0;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .side-social a {
+        width: 108px;
+        height: 108px;
+        float: left;
+        margin: 1%;
+        padding: 15px;
+    }
 }
 
 .side-social a i {

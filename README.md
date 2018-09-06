@@ -3,7 +3,8 @@
 Create a Widget with Site Social Networks
 ## Features
 
-- `v1.0.0` Criação do widget.
+- `v1.0.1` CSS min added.
+- `v1.0.0` Creating the widget.
 
 ### Important informations
 
